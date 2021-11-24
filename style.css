@@ -1,0 +1,52 @@
+body {
+  background-color: #d2a679;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://st4.depositphotos.com/1194063/21580/i/600/depositphotos_215809684-stock-photo-thanksgiving-celebration-traditional-dinner-setting.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Georgia;
+  padding-top: 7px;
+  font-size: 35px;
+}
+
+.text {
+  text-align: center;
+  font-family: Georgia;
+  line-height: 2;
+}
+
+.boxed {
+  border-style: solid;
+  border: 5px 5px;
+  border-color: LightGrey;
+}
