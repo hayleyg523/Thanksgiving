@@ -21,6 +21,18 @@ body, html {
   position: relative;
 }
 
+.hero-family {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://ih1.redbubble.net/image.494033094.7346/fposter,small,wall_texture,product,750x1000.u2.jpg");
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
@@ -47,6 +59,68 @@ body, html {
 
 .boxed {
   border-style: solid;
-  border: 5px 5px;
+  border: 5px 5px 5px;
   border-color: LightGrey;
+}
+
+.index:hover {
+  background-color: white;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  box-shadow: 5px 5px 5px 5px white;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.family {
+  width: 50%;
+  height: 500px
+}
+
+.hero-friends{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/proxy/Fit1XzdCWiy478YcFgbpZ0ReepN0CzMQf0pR6lUKEbDFxn1Jd0BpJTGDqGnihGTvML8-pePfXR10Aez7dUVe3j81AzvdgWQ4vMeaZLQ8LM5rEhCHglCeSz_i3tR1yT9RtqwTRWViyhkG");
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.infoPics {
+  text-align: center;
+  width: 100%;
+}
+
+.infoPics img {
+  width: 100%;
+  height: 300px;
+}
+
+.infoPics table {
+  width: 100%;
+}
+
+.infoPics td {
+  width: 33%;
+  height: 200px;
+}
+
+.specific {
+  box-shadow: 7px 7px 7px 11px white;
+  padding-right: 10px
+}
+
+.space {
+  padding-left: 10px;
 }
